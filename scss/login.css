@@ -1,31 +1,77 @@
 * {
   margin: 0px;
   padding: 0px;
-  position: relative; }
+  position: relative;
+  font-family: Microsoft JhengHei;
+  user-select: none; }
 
 .box {
   width: 100%;
   height: 100vh;
-  background-image: url("https://s1.wp.com/home.logged-out/page-domain-only/img/domain-first-background-2x.jpg");
-  background-size: cover; }
+  background-image: linear-gradient(to top, #303F9F 0%, #b490ca 25%, #72afd3 50%, #4ef0af 100%); }
 
-.block .img {
-  width: 335px;
-  height: 50px;
-  padding: 8px;
-  background-image: url("http://www.csie.sju.edu.tw/images/logo.gif");
-  background-size: cover; }
+.block {
+  padding: 250px 0px 0px; }
+  .block .img {
+    width: 335px;
+    height: 50px;
+    padding: 8px;
+    margin: 0px auto;
+    background-image: url("http://www.csie.sju.edu.tw/images/logo.gif");
+    background-size: cover; }
 
 .grid {
   display: flex;
   width: 100%;
   text-align: center;
-  padding: 100px 0px; }
+  padding: 100px 0px 0px; }
   .grid .leftgrid {
     width: 50%;
-    color: white; }
+    color: white;
+    margin: 0px auto; }
+    .grid .leftgrid h1 {
+      font-size: 2em;
+      letter-spacing: 0.2em;
+      text-shadow: 0.1em 0.1em #555; }
+    .grid .leftgrid .grid2 .login {
+      width: 180px;
+      height: 20px;
+      background-color: white;
+      border: none;
+      border-radius: 15px;
+      padding: 4px 12px;
+      box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+      font-size: 1rem;
+      letter-spacing: .4px;
+      color: #666;
+      margin: 4px 0px; }
+      .grid .leftgrid .grid2 .login:focus {
+        outline: none; }
+    .grid .leftgrid .grid2 h3 {
+      font-size: 1.5em;
+      margin: 4px 0px; }
+    .grid .leftgrid .grid2 .btn {
+      width: 150px;
+      height: 30px;
+      border-radius: 15px;
+      border: none;
+      color: rgba(20, 20, 20, 0.3);
+      font-weight: 700;
+      font-size: 1.2em;
+      margin: 8px 0px;
+      background-color: #455A64;
+      box-shadow: 8px 4px 12px 4px rgba(50, 50, 100, 0.1); }
+      .grid .leftgrid .grid2 .btn:focus {
+        outline: none; }
+      .grid .leftgrid .grid2 .btn:hover {
+        cursor: pointer;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5); }
+      .grid .leftgrid .grid2 .btn:active {
+        color: #455A64; }
   .grid .rightgrid {
     width: 50%;
     color: white; }
+    .grid .rightgrid h1 {
+      text-shadow: 0.1em 0.1em #555; }
 
 /*# sourceMappingURL=login.css.map */
