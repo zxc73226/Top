@@ -11,7 +11,7 @@
   background-image: linear-gradient(to top, #303F9F 0%, #b490ca 25%, #72afd3 50%, #4ef0af 100%); }
 
 .block {
-  padding: 250px 0px 0px; }
+  padding: 130px 0px 0px; }
   .block .img {
     width: 335px;
     height: 50px;
@@ -24,7 +24,7 @@
   display: flex;
   width: 100%;
   text-align: center;
-  padding: 100px 0px 0px; }
+  padding: 80px 0px 0px; }
   .grid .leftgrid {
     width: 50%;
     color: white;
@@ -55,7 +55,7 @@
       height: 30px;
       border-radius: 15px;
       border: none;
-      color: rgba(20, 20, 20, 0.3);
+      color: white;
       font-weight: 700;
       font-size: 1.2em;
       margin: 8px 0px;
@@ -65,13 +65,14 @@
         outline: none; }
       .grid .leftgrid .grid2 .btn:hover {
         cursor: pointer;
-        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5); }
+        box-shadow: 2px 4px 8px -2px rgba(51, 51, 102, 0.5); }
       .grid .leftgrid .grid2 .btn:active {
-        color: #455A64; }
+        color: rgba(20, 20, 20, 0.3); }
   .grid .rightgrid {
     width: 50%;
     color: white; }
     .grid .rightgrid h1 {
+      margin: 30px 0 0;
       text-shadow: 0.1em 0.1em #555; }
 
 /*# sourceMappingURL=login.css.map */
