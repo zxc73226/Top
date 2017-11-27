@@ -44,8 +44,8 @@ if($_POST["password"] == $abc
             header("Location: ../Top/front_desk/home.html"); //網址為登入成功後要導向的頁面
     }
 else  echo json_encode(array("code"=>"error"));
-
-
+//array("code"=>"error",""=>"")
+//["code"=>"error",""=>""]
 ?>
 <!-- 
 </body>
