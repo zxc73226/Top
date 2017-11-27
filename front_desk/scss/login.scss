@@ -30,71 +30,92 @@
   width: 100%;
   text-align: center;
   padding: 80px 0px 0px;
-  .leftgrid {
-    width: 50%;
-    color: white;
-    margin: 0px auto;
-    h1 {
-      font-size: 2em;
-      letter-spacing: 0.2em;
-      text-shadow: 0.1em 0.1em #555;
-    }
-    .grid2 {
-      // #position {
-      //   width: 50px;
-      //   height: 30px;
-      // }
-      .login {
+  .read_data {
+    .leftgrid {
+      width: 50%;
+      color: white; // margin: 0px auto;
+      h1 {
+        margin: 0px auto;
+        font-size: 2em;
+        letter-spacing: 0.3em;
+        text-shadow: 0.1em 0.1em #555;
+      }
+      .box_block {
+        display: flex;
+        flex-direction: column;
         width: 180px;
-        height: 20px;
-        background-color: white;
-        border: none;
-        border-radius: 15px;
-        padding: 4px 12px;
-        box-shadow: 4px 4px 12px -2px rgba(20%, 20%, 40%, 0.5); // border-bottom: 2px solid #555;
-        font-size: 1rem;
-        letter-spacing: .4px;
-        color: #666;
-        margin: 4px 0px;
-        &:focus {
-          outline: none;
+        margin: 5px auto;
+        padding-right: 40px;
+        justify-content: flex-start;
+        .position {
+          width: 205px;
+          height: 28px;
+          background-color: white;
+          border: none;
+          border-radius: 15px;
+          padding: 4px 12px;
+          box-shadow: 4px 4px 12px -2px rgba(20%, 20%, 40%, 0.5); // border-bottom: 2px solid #555;
+          font-size: 1rem;
+          letter-spacing: .4px;
+          color: #666;
+          &:focus {
+            outline: none;
+          }
         }
-      }
-      h3 {
-        font-size: 1.5em;
-        margin: 4px 0px;
-      }
-      .btn {
-        width: 150px;
-        height: 30px;
-        border-radius: 15px;
-        border: none;
-        color: white;
-        font-weight: 700;
-        font-size: 1.2em;
-        margin: 8px 0px;
-        background-color: #455A64;
-        box-shadow: 8px 4px 12px 4px rgba(50, 50, 100, 0.1);
-        &:focus {
-          outline: none;
+        .login {
+          width: 180px;
+          height: 20px;
+          background-color: white;
+          border: none;
+          border-radius: 15px;
+          padding: 4px 12px;
+          box-shadow: 4px 4px 12px -2px rgba(20%, 20%, 40%, 0.5); // border-bottom: 2px solid #555;
+          font-size: 1rem;
+          letter-spacing: .4px;
+          color: #666;
+          margin: 4px 0px;
+          justify-content: flex-start;
+          &:focus {
+            outline: none;
+          }
         }
-        &:hover {
-          cursor: pointer;
-          box-shadow: 2px 4px 8px -2px rgba(20%, 20%, 40%, 0.5);
+        h3 {
+          font-size: 1.5em;
+          margin: 4px 0px;
         }
-        &:active {
-          color: rgba(20, 20, 20, .3);
+        .btn {
+          width: 150px;
+          height: 30px;
+          border-radius: 15px;
+          border: none;
+          color: white;
+          font-weight: 700;
+          font-size: 1.2em;
+          margin: 8px auto;
+          background-color: #455A64;
+          box-shadow: 8px 4px 12px 4px rgba(50, 50, 100, 0.1);
+          &:focus {
+            outline: none;
+          }
+          &:hover {
+            cursor: pointer;
+            box-shadow: 2px 4px 8px -2px rgba(20%, 20%, 40%, 0.5);
+          }
+          &:active {
+            color: rgba(20, 20, 20, .3);
+          }
         }
       }
     }
   }
-  .rightgrid {
-    width: 50%;
-    color: white;
-    h1 {
-      margin: 30px 0 0;
-      text-shadow: 0.1em 0.1em #555;
-    }
-    h3 {}
+}
+
+.rightgrid {
+  width: 50%;
+  color: white;
+  h1 {
+    margin: 30px 0 0;
+    text-shadow: 0.1em 0.1em #555;
   }
+  h3 {}
 }

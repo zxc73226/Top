@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>login</title>
     <link href="./scss/login.css" rel="stylesheet">
+    <link href="./PHP/login.php" rel="stylesheet">
 </head>
 
 <body>
@@ -15,21 +16,23 @@
             <div class="img"></div>
         </div>
         <div class="grid">
-            <div class="leftgrid">
-                <h1>專題登入</h1>
-                <div class="">
-                    <select class="position" id="position" name="position">
-                    　<option value="student">學生</option>
-                    　<option value="teacher">教師</option>
-                    　<option value="Review">評審</option>
-                    　<option value="administrator">管理員</option>
-                    </select>
-                    <input class="login" id="login_id" type="text" placeholder="Account"><br>
-                    <input class="login" id="login_password" type="password" placeholder="Password">
-                    <h3>忘記密碼</h3>
-                    <button class="btn" id="login_btn">登入</button>
+            <form class="read_data" method="post" action="./PHP/login.php">
+                <div class="leftgrid">
+                    <h1>專題登入</h1>
+                    <div class="box_block">
+                        <select class="position" id="position" name="position">
+                        　<option value="student">學生</option>
+                        　<option value="teacher">教師</option>
+                        　<option value="Review">評審</option>
+                        　<option value="administrator">管理員</option>
+                        </select>
+                        <input class="login" id="login_id" name="username" type="text" placeholder="Account"><br>
+                        <input class="login" id="login_password" name="password" type="password" placeholder="Password">
+                        <h3>忘記密碼</h3>
+                        <button class="btn" id="login_btn" type="submit">登入</button>
+                    </div>
                 </div>
-            </div>
+            </form>
             <div class="rightgrid">
                 <h1>登入說明</h1>
                 <h3>本校教師/學生帳號：員工編號/學號</h3>

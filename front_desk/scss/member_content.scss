@@ -57,10 +57,26 @@
     }
   }
   .sec_middle {
+    width: 60%;
     border: 1px solid black;
-    .text {
-      min-width: 800px;
-      width: 60%;
+    padding: 20px;
+    .member_content {
+      .memver_box {
+        margin: 0px auto 20px;
+        .topic {}
+        .technology {}
+        .teacher {}
+        .name {}
+        .Six_pages_documents {
+          height: 50px;
+        }
+        .Hundred_pages_reported {
+          height: 50px;
+        }
+        .works {
+          height: 50px;
+        }
+      }
     }
   }
   .sec_right {

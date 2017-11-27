@@ -25,54 +25,76 @@
   width: 100%;
   text-align: center;
   padding: 80px 0px 0px; }
-  .grid .leftgrid {
-    width: 50%;
-    color: white;
-    margin: 0px auto; }
-    .grid .leftgrid h1 {
-      font-size: 2em;
-      letter-spacing: 0.2em;
-      text-shadow: 0.1em 0.1em #555; }
-    .grid .leftgrid .grid2 .login {
-      width: 180px;
-      height: 20px;
-      background-color: white;
-      border: none;
-      border-radius: 15px;
-      padding: 4px 12px;
-      box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
-      font-size: 1rem;
-      letter-spacing: .4px;
-      color: #666;
-      margin: 4px 0px; }
-      .grid .leftgrid .grid2 .login:focus {
-        outline: none; }
-    .grid .leftgrid .grid2 h3 {
-      font-size: 1.5em;
-      margin: 4px 0px; }
-    .grid .leftgrid .grid2 .btn {
-      width: 150px;
-      height: 30px;
-      border-radius: 15px;
-      border: none;
-      color: white;
-      font-weight: 700;
-      font-size: 1.2em;
-      margin: 8px 0px;
-      background-color: #455A64;
-      box-shadow: 8px 4px 12px 4px rgba(50, 50, 100, 0.1); }
-      .grid .leftgrid .grid2 .btn:focus {
-        outline: none; }
-      .grid .leftgrid .grid2 .btn:hover {
-        cursor: pointer;
-        box-shadow: 2px 4px 8px -2px rgba(51, 51, 102, 0.5); }
-      .grid .leftgrid .grid2 .btn:active {
-        color: rgba(20, 20, 20, 0.3); }
-  .grid .rightgrid {
+  .grid .read_data .leftgrid {
     width: 50%;
     color: white; }
-    .grid .rightgrid h1 {
-      margin: 30px 0 0;
+    .grid .read_data .leftgrid h1 {
+      margin: 0px auto;
+      font-size: 2em;
+      letter-spacing: 0.3em;
       text-shadow: 0.1em 0.1em #555; }
+    .grid .read_data .leftgrid .box_block {
+      display: flex;
+      flex-direction: column;
+      width: 180px;
+      margin: 5px auto;
+      padding-right: 40px;
+      justify-content: flex-start; }
+      .grid .read_data .leftgrid .box_block .position {
+        width: 205px;
+        height: 28px;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 4px 12px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+        font-size: 1rem;
+        letter-spacing: .4px;
+        color: #666; }
+        .grid .read_data .leftgrid .box_block .position:focus {
+          outline: none; }
+      .grid .read_data .leftgrid .box_block .login {
+        width: 180px;
+        height: 20px;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 4px 12px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+        font-size: 1rem;
+        letter-spacing: .4px;
+        color: #666;
+        margin: 4px 0px;
+        justify-content: flex-start; }
+        .grid .read_data .leftgrid .box_block .login:focus {
+          outline: none; }
+      .grid .read_data .leftgrid .box_block h3 {
+        font-size: 1.5em;
+        margin: 4px 0px; }
+      .grid .read_data .leftgrid .box_block .btn {
+        width: 150px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        font-size: 1.2em;
+        margin: 8px auto;
+        background-color: #455A64;
+        box-shadow: 8px 4px 12px 4px rgba(50, 50, 100, 0.1); }
+        .grid .read_data .leftgrid .box_block .btn:focus {
+          outline: none; }
+        .grid .read_data .leftgrid .box_block .btn:hover {
+          cursor: pointer;
+          box-shadow: 2px 4px 8px -2px rgba(51, 51, 102, 0.5); }
+        .grid .read_data .leftgrid .box_block .btn:active {
+          color: rgba(20, 20, 20, 0.3); }
+
+.rightgrid {
+  width: 50%;
+  color: white; }
+  .rightgrid h1 {
+    margin: 30px 0 0;
+    text-shadow: 0.1em 0.1em #555; }
 
 /*# sourceMappingURL=login.css.map */

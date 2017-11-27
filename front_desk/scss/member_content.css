@@ -49,10 +49,17 @@
     .sec_box .sec_left .user_data_content {
       margin: 8px; }
   .sec_box .sec_middle {
-    border: 1px solid black; }
-    .sec_box .sec_middle .text {
-      min-width: 800px;
-      width: 60%; }
+    width: 60%;
+    border: 1px solid black;
+    padding: 20px; }
+    .sec_box .sec_middle .member_content .memver_box {
+      margin: 0px auto 20px; }
+      .sec_box .sec_middle .member_content .memver_box .Six_pages_documents {
+        height: 50px; }
+      .sec_box .sec_middle .member_content .memver_box .Hundred_pages_reported {
+        height: 50px; }
+      .sec_box .sec_middle .member_content .memver_box .works {
+        height: 50px; }
   .sec_box .sec_right {
     width: 20%; }
     .sec_box .sec_right h2 {
