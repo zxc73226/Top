@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: Microsoft JhengHei;
+  box-sizing: border-box; }
+
+.nav_box {
+  width: 100%;
+  height: 80px;
+  display: flex; }
+
+.header_img {
+  width: 100%;
+  height: 300px;
+  background-image: url("http://pic1.win4000.com/wallpaper/3/56f508af0c640.jpg");
+  background-size: cover; }
+
+.sec_nav {
+  padding-top: 50px;
+  margin: 0px auto;
+  width: 60%; }
+  .sec_nav .nav_a {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-bottom: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 8px;
+    padding: 4px 4px 0px;
+    font-size: 1.5em; }
+
+.sec_box {
+  width: 100%;
+  display: flex; }
+  .sec_box .sec_left {
+    width: 20%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; }
+    .sec_box .sec_left .avatar_img {
+      width: 120px;
+      height: 120px;
+      border: 1px solid black;
+      background-size: cover;
+      background-position: center center;
+      background-image: url("http://img0.pconline.com.cn/pconline/1307/07/3373207_13451641432b60-133k01.jpg"); }
+    .sec_box .sec_left .user_data_content {
+      margin: 8px; }
+  .sec_box .sec_middle {
+    border: 1px solid black; }
+    .sec_box .sec_middle .text {
+      min-width: 800px;
+      width: 60%; }
+  .sec_box .sec_right {
+    width: 20%; }
+    .sec_box .sec_right h2 {
+      margin: 16px; }
+    .sec_box .sec_right .tool {
+      width: 90%;
+      height: 200px;
+      margin: 20px auto;
+      background-position: center center; }
+      .sec_box .sec_right .tool:hover {
+        cursor: pointer; }
+
+#calendar {
+  background-size: cover;
+  background-image: url("https://www.ignitedevelopment.hk/ourdb/images/roger.thinkaholic@mindvan.com/wxcal.jpg"); }
+
+#chat {
+  background-size: cover;
+  background-image: url("http://www.shejiye.com/uploadfile/icon/2017/0203/shejiyeicon2edvoetlspr.png"); }
+
+/*# sourceMappingURL=bulletin_board.css.map */

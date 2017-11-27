@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: Microsoft JhengHei;
+  box-sizing: border-box;
+}
+
+.nav_box {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.header_img {
+  width: 100%;
+  height: 300px;
+  background-image: url('http://pic1.win4000.com/wallpaper/3/56f508af0c640.jpg');
+  background-size: cover;
+}
+
+.sec_nav {
+  padding-top: 50px;
+  margin: 0px auto;
+  width: 60%;
+  .nav_a {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-bottom: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 8px;
+    padding: 4px 4px 0px;
+    font-size: 1.5em;
+  }
+}
+
+.sec_box {
+  width: 100%;
+  display: flex;
+  .sec_left {
+    width: 20%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .avatar_img {
+      width: 120px;
+      height: 120px;
+      border: 1px solid black;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('http://img0.pconline.com.cn/pconline/1307/07/3373207_13451641432b60-133k01.jpg');
+    }
+    .user_data_content {
+      margin: 8px;
+    }
+  }
+  .sec_middle {
+    width: 60%;
+    border-top: 1px solid black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    .sec_block {
+      margin: 0px auto;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+      margin: 20px auto;
+      width: 300px;
+      border: 1px solid black;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        margin: 8px 10px;
+      }
+      h4 {
+        margin: 8px 10px;
+      }
+    }
+  }
+  .sec_right {
+    width: 20%;
+    h2 {
+      margin: 16px;
+    }
+    .tool {
+      width: 90%;
+      height: 200px; // border: 1px solid black;
+      margin: 20px auto;
+      background-position: center center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#calendar {
+  background-size: cover;
+  background-image: url('https://www.ignitedevelopment.hk/ourdb/images/roger.thinkaholic@mindvan.com/wxcal.jpg');
+}
+
+#chat {
+  background-size: cover;
+  background-image: url('http://www.shejiye.com/uploadfile/icon/2017/0203/shejiyeicon2edvoetlspr.png');
+}
+
+.foo_box {}
